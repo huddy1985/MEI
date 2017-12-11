@@ -1,6 +1,6 @@
-# MEI (Memory Error Injection)
+# Memory Error Injection
 
-*Wang Xiaoqiang<wang_xiaoq@126.com> Distributed & Embedded System Lab (DSLab)*
+*Wang Xiaoqiang<wang_xiaoq@126.com> Wang Xuguo<wangxg13@lzu.edu.cn> Distributed & Embedded System Lab (DSLab)*
 
 MEI is a memory errors injection tool to validate the memory testers. Memory testers implemented in userspace should use the interface 'read_byte_from_addr' provided in ./userlib/ directory. Kernel space memory testers can directly use the interface 'mei_read_byte' exported by the MEI kernel module.
 
